@@ -1,0 +1,22 @@
+<!--components/jigsaw/jigsaw.wxml-->
+<wxs module="jigsaw" src="./jigsaw.wxs"></wxs>
+<view class='main'>
+  <!--画布-->
+  <view class='canvas_wrap'>
+    <canvas canvas-id='first' class='canvas' style='width:{{canvas_width}}px;height:{{canvas_height}}px'>
+      <cover-view class='ima_wrap' bindtouchend='{{jigsaw.onEnd}}'>
+        <cover-image src='{{cover_image}}' bindtouchstart='onTouchStart' bindtouchend='onTouchEnd' hidden='{{cover_hidden}}'></cover-image>
+      </cover-view>
+    </canvas>
+    <canvas canvas-id='second' class='block' style='left:{{-x}}px;width:{{canvas_width}}px;height:{{canvas_height}}px;'></canvas>
+  </view>
+  <!--silder-->
+  <view class='slider_wrap'>
+    <movable-area style='width:{{canvas_width}}px;height:42px;background: #f5f5f5;'>
+      <text class='tip' style='opacity:{{opacity}}'>向右滑动填充拼图</text>
+      <movable-view id='slider' data-x='{{x}}' class='slider' x="{{_x}}" direction="horizontal" bindchange='{{jigsaw.on}}' bindtouchstart='onStart' bindtouchend='onEnd' style='background:{{im_background}}'>
+        <image src='{{movable_image}}' mode='widthFix'></image>
+      </movable-view>
+    </movable-area>
+  </view>
+</view>

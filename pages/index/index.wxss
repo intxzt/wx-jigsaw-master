@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+
+page {
+  background: #d9d9d9;
+}
+
+.main {
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin: 10px;
+  border: 10rpx solid #e6e6e6;
+  border-radius: 30rpx;
+}
+
+.input_wrap {
+  width: 320px;
+}
+
+.input_wrap input {
+  margin: 10px;
+  height: 50px;
+  border-bottom: 1rpx solid #666;
+  padding: 0 10px;
+}
