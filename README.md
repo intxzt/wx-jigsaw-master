@@ -31,5 +31,5 @@
       }
     ]
 ```
-更多信息请查看 https://xuzhengtong.com/2019/07/30/wx%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/wx%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%BB%91%E5%8A%A8%E9%AA%8C%E8%AF%81%E7%BB%84%E4%BB%B6/#more
+[更多信息](https://xuzhengtong.com/2019/07/30/wx%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/wx%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%BB%91%E5%8A%A8%E9%AA%8C%E8%AF%81%E7%BB%84%E4%BB%B6/#more "github")
 
