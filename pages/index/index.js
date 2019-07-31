@@ -14,13 +14,6 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-    const ctx = wx.createCanvasContext('mycanvas')
-    ctx.moveTo(10, 10)
-    ctx.lineTo(100, 10)
-    ctx.lineTo(100, 100)
-    ctx.fillStyle = 'red'
-    ctx.fill()
-    ctx.draw()
 
   },
   modal: function(title, content) {
